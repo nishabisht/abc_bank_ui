@@ -1,0 +1,287 @@
+:root {
+  --primary-color: #043f71;
+  --secondary-color: #ffe400;
+  --light-accent-color: #e8eff4;
+}
+
+body {
+  background-color: var(--light-accent-color);
+}
+
+section {
+  color: var(--primary-color);
+}
+
+.text-color {
+  color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--primary-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--light-accent-color);
+}
+
+.navbar-light .navbar-brand,
+.navbar-dark .navbar-brand {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.footer {
+  background-color: var(--primary-color) !important;
+  color: var(--light-accent-color) !important;
+}
+
+.contact-section {
+  width: 100%;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-section .container-fluid {
+  padding: 0;
+}
+
+.contact-form {
+  background-color: #043e71ef;
+  color: var(--light-accent-color);
+}
+
+.service-icon:hover {
+  color: #ffe400; /* Hover color */
+  color: #043f71;
+}
+
+/* Product css */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+/* Dashboard css */
+.text-color {
+  color: #043f71;
+}
+
+.icon-style {
+  color: #043f71;
+  transition: color 0.3s ease;
+}
+
+.icon-style:hover {
+  color: #ffe400;
+  color: #043f71;
+}
+
+.action-card {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.no-border {
+  border: none !important;
+}
+
+/* Header css */
+.navbar {
+  transition: background-color 0.3s;
+}
+
+.nav-link,
+.navbar-brand {
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #007bff;
+}
+
+/* AccountManagement css */
+
+/* styles.css */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+/* Registration css */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 2rem; /* Increased padding for spacious feel */
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #043f71;
+  border-color: #043f71;
+}
+
+.btn-primary:hover {
+  background-color: #ffe400; /* Hover effect */
+  border-color: #ffe400;
+  color: #043f71;
+}
+
+a {
+  color: #043f71;
+}
+
+a:hover {
+  color: #ffe400; /* Hover effect */
+}
+
+/* Profile css */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+/* login css */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 2rem; /* Increased padding for a spacious feel */
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #043f71;
+  border-color: #043f71;
+}
+
+.btn-primary:hover {
+  background-color: #ffe400; /* Hover effect */
+  border-color: #ffe400;
+  color: #043f71;
+}
+
+a {
+  color: #043f71;
+}
+
+a:hover {
+  color: #ffe400; /* Hover effect */
+}
+
+/* support page css */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+/* Banner css */
+.banner {
+  position: relative;
+  background-image: url("../img/banner.png"); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  height: 550px; /* Adjust the height as needed */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 63, 113, 0.7); /* #043f71 with 70% opacity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay .btn {
+  color: white;
+  border: none;
+}
+
+.overlay .btn-first {
+  background-color: #ffe400;
+  color: #043f71;
+  border: 2px solid #ffe400;
+  width: 15%;
+  height: 4vh;
+}
+
+.overlay .btn-second {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  width: 15%;
+  height: 4vh;
+}
+
+.overlay .btn-second:hover,
+.overlay .btn-first:hover {
+  background-color: #ffffff;
+  color: #043f71;
+  border: 2px solid #ffffff;
+}
