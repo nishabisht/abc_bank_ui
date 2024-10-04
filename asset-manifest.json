@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/abc_bank_ui/static/css/main.b4def32b.css",
+    "main.js": "/abc_bank_ui/static/js/main.f518144e.js",
+    "static/media/contact.jpg": "/abc_bank_ui/static/media/contact.7a9618aa60e649439340.jpg",
+    "static/media/savebank.jpg": "/abc_bank_ui/static/media/savebank.7e830c6ab3222fdb5e99.jpg",
+    "static/media/credit.jpg": "/abc_bank_ui/static/media/credit.efe8a19d54cdef370852.jpg",
+    "static/media/banner.png": "/abc_bank_ui/static/media/banner.57fe02b9be96f788c4f8.png",
+    "static/media/about.jpg": "/abc_bank_ui/static/media/about.f6869cef48776606192c.jpg",
+    "static/media/checkBank.jpg": "/abc_bank_ui/static/media/checkBank.ac497841c537169d00cd.jpg",
+    "index.html": "/abc_bank_ui/index.html",
+    "main.b4def32b.css.map": "/abc_bank_ui/static/css/main.b4def32b.css.map",
+    "main.f518144e.js.map": "/abc_bank_ui/static/js/main.f518144e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4def32b.css",
+    "static/js/main.f518144e.js"
+  ]
+}
