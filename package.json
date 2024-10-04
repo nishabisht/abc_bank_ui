@@ -1,8 +1,11 @@
 {
+  "homepage": "https://nishabisht.github.io/abc_bank_ui",
   "name": "abc-bank-ui",
   "version": "1.0.0",
   "description": "ABC Bank UI",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

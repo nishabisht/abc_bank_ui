@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/abc_bank_ui" component={Home} />
         <Route path="/accountManagement" component={AccountManagement}/>
         {/* <Route path="/account" component={Account} /> */}
         {/* Auth nav */}

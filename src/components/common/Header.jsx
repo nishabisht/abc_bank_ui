@@ -15,7 +15,7 @@ const Header = ({ isAuthenticated = true }) => {
 
   const publicNav = (
     <Nav className="mr-auto">
-      <Nav.Link as={Link} to="/">Home</Nav.Link>
+      <Nav.Link as={Link} to="/abc_bank_ui">Home</Nav.Link>
       <Nav.Link as={Link} to="/product">Products</Nav.Link>
     </Nav>
   );
